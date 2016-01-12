@@ -1,7 +1,7 @@
 # Gif-picture-play
 play gif picture
 
-![](xiaomaomi.jpg)
+![](xiaomaomi.gif)
 
 declare in xml file
 
