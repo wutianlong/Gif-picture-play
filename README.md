@@ -3,7 +3,7 @@ play gif picture
 
 ![](xiaomaomi.gif)
 
-＃ declare in xml file
+#declare in xml file
 
 <!-- GIF 图片-->
     <com.sohu.tv.ui.view.GifDecoderView
@@ -16,7 +16,7 @@ play gif picture
         android:layout_marginRight="@dimen/button_download_width"
         android:scaleType="fitXY"/>
   
-  ＃ Activity or Fragment  use
+  #Activity or Fragment  use
   
     private void initSmallGif(View view) {
         mSmallGif = (GifDecoderView) view.findViewById(R.id.xiaomaomi_gif);
