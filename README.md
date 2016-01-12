@@ -15,7 +15,7 @@ declare in xml file
   
   Activity or Fragment  use
   
-   private void initSmallGif(View view) {
+    private void initSmallGif(View view) {
         mSmallGif = (GifDecoderView) view.findViewById(R.id.xiaomaomi_gif);
         mSmallGif.playGif();
     }
