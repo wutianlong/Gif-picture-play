@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <com.sohu.tv.ui.view.HeaderPullListView
+        android:id="@+id/home_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:listSelector="@drawable/transparent"/>
+
+    <!-- GIF 图片-->
+    <com.sohu.tv.ui.view.GifDecoderView
+        android:id="@+id/xiaomaomi_gif"
+        android:layout_width="@dimen/iv_head_photo_height"
+        android:layout_height="@dimen/adver_pic_160_80"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/button_download_width"
+        android:layout_marginRight="@dimen/button_download_width"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:id="@+id/network_error_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/base_color_black1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="@dimen/emotion_pic_180_90"
+            android:layout_height="@dimen/emotion_pic_180_90"
+            android:src="@drawable/emotion_erro"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/netError"
+            android:textColor="@color/white2_30_percent_opacity"
+            android:textSize="@dimen/my_common_button_textsize"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/white_5_percent_opacity"
+            android:orientation="vertical"
+            android:padding="1dp">
+
+            <Button
+                android:id="@+id/btn_video_downloaded"
+                android:layout_width="@dimen/my_common_button_width"
+                android:layout_height="@dimen/my_common_button_height"
+                android:background="@drawable/selector_transparent_grey3_bg"
+                android:gravity="center"
+                android:text="@string/video_downloaded"
+                android:textColor="@color/base_color_white2"
+                android:textSize="@dimen/my_common_button_textsize"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/white_5_percent_opacity"/>
+
+            <Button
+                android:id="@+id/btn_try_again"
+                android:layout_width="@dimen/my_common_button_width"
+                android:layout_height="@dimen/my_common_button_height"
+                android:background="@drawable/selector_transparent_grey3_bg"
+                android:gravity="center"
+                android:text="@string/button_text_try_again"
+                android:textColor="@color/base_color_white2"
+                android:textSize="@dimen/my_common_button_textsize"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
