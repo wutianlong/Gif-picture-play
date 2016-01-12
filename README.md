@@ -16,7 +16,7 @@ play gif picture
         android:layout_marginRight="@dimen/button_download_width"
         android:scaleType="fitXY"/>
   
-  #Activity or Fragment  use
+#Activity or Fragment  use
   
     private void initSmallGif(View view) {
         mSmallGif = (GifDecoderView) view.findViewById(R.id.xiaomaomi_gif);
