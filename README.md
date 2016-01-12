@@ -1,5 +1,8 @@
 # Gif-picture-play
 play gif picture
+
+![](xiaomaomi.jpg)
+
 declare in xml file
 
 <!-- GIF 图片-->
